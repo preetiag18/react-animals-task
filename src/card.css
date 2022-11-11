@@ -1,0 +1,64 @@
+ 
+.cards{
+    
+    height: 270px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    margin: 1rem;
+    border-radius: 5px;
+    position: relative;
+    background: lightgreen;
+}
+
+img{
+    height: 160px;
+    width: 130px;
+   
+}
+
+.remove{
+    line-height: 15px;
+    width: 18px;
+    font-size: 10spt;
+    font-family: tahoma;
+    margin-top: 8px;
+    margin-right: 2px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 2px;
+}
+
+h2{
+    margin-top: 0.5rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  
+
+}
+
+.like{
+    position: absolute;
+    cursor: pointer;
+    bottom: 25px;
+    left: 6px;
+    margin-left: 15px;
+    background-color: yellow;
+    border-radius: 4px;
+    
+}
+.dislike{
+    position: absolute;
+    cursor: pointer;
+    bottom: 25px;
+    right: 6px;
+    margin-right: 15px;
+    background-color: yellow;
+    border-radius: 4px;
+}
